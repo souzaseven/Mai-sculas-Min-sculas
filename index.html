@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<link rel="icon" href="https://raw.githubusercontent.com/souzaseven/Site2/Desafios/icon%20eu.ico" type="image/x-icon">
+<!--icone com meu rosto-->
+
+<!--souza system-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8542251167876044"
+     crossorigin="anonymous"></script>
+
+<!--meajudatga-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E7ZNTJSRYR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E7ZNTJSRYR');
+</script>
+<!--souza system-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8542251167876044"
+     crossorigin="anonymous"></script>
+
+<!--meajudatga-->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8EC5C2WTG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S8EC5C2WTG');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter Maiúsculas e Minúsculas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Converter Maiúsculas e Minúsculas</h1>
+        <div class="box">
+            <div class="row">
+                <div class="col-12">
+                    <form>
+                        <div class="legenda">Digite ou cole o texto no campo abaixo:</div>
+                        <textarea name="origem" class="form-control origem" oninput="converterTexto()"></textarea>
+                        <div class="opt-extra">
+                            <div>
+                                <input type="radio" name="tipo" id="maiusculas" value="maiusculas" checked onchange="converterTexto()">
+                                <label for="maiusculas">Maiúsculas</label>
+                                <input type="radio" name="tipo" id="minusculas" value="minusculas" onchange="converterTexto()">
+                                <label for="minusculas">Minúsculas</label>
+                                <input type="radio" name="tipo" id="primeiraletra" value="primeiraletra" onchange="converterTexto()">
+                                <label for="primeiraletra">Primeira letra</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- Resultado do texto convertido -->
+                <div class="col-12">
+                    <div class="legenda">Resultado:</div>
+                    <textarea name="destino" class="form-control destino" readonly></textarea>
+                </div>
+                <!-- Botões para copiar o texto e limpar -->
+                <div class="col-12 col-btn">
+                    <button class="btn-classic" onclick="copiarTexto()">
+                        <i class="fas fa-copy"></i> Copiar Texto
+                    </button>
+                    <button class="btn-classic" onclick="limparConteudo()">
+                        Limpar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
