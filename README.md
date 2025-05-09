@@ -6,7 +6,7 @@ Uma ferramenta web simples para converter textos entre maiúsculas, minúsculas 
 -->
 ## ✨ Funcionalidades
 
-- **Conversão Instantânea**:
+- **Conversão Instantânea**: 
   - Texto em MAIÚSCULAS
   - Texto em minúsculas
   - Primeira Letra de Cada Palavra Maiúscula
